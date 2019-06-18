@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>遊戲</title>
+    <!-- 引入我們自己寫的 CSS -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="allwrap">
+        <div class="contentwrap hide" id="contentwrap">
+            <div class="title" id="title">期末--排七</div>
+            <div class="loading" id="loading"><img src="./cards/0.jpg">
+                <img src="./cards/1.jpg">
+                <img src="./cards/10.jpg">
+                <img src="./cards/11.jpg">
+                <img src="./cards/12.jpg">
+                <img src="./cards/13.jpg">
+                <img src="./cards/14.jpg">
+                <img src="./cards/15.jpg">
+                <img src="./cards/16.jpg">
+                <img src="./cards/17.jpg">
+                <img src="./cards/18.jpg">
+                <img src="./cards/19.jpg">
+                <img src="./cards/2.jpg">
+                <img src="./cards/20.jpg">
+                <img src="./cards/21.jpg">
+                <img src="./cards/22.jpg">
+                <img src="./cards/23.jpg">
+                <img src="./cards/24.jpg">
+                <img src="./cards/25.jpg">
+                <img src="./cards/26.jpg">
+                <img src="./cards/27.jpg">
+                <img src="./cards/28.jpg">
+                <img src="./cards/29.jpg">
+                <img src="./cards/3.jpg">
+                <img src="./cards/30.jpg">
+                <img src="./cards/31.jpg">
+                <img src="./cards/32.jpg">
+                <img src="./cards/33.jpg">
+                <img src="./cards/34.jpg">
+                <img src="./cards/35.jpg">
+                <img src="./cards/36.jpg">
+                <img src="./cards/37.jpg">
+                <img src="./cards/38.jpg">
+                <img src="./cards/39.jpg">
+                <img src="./cards/4.jpg">
+                <img src="./cards/40.jpg">
+                <img src="./cards/41.jpg">
+                <img src="./cards/42.jpg">
+                <img src="./cards/43.jpg">
+                <img src="./cards/44.jpg">
+                <img src="./cards/45.jpg">
+                <img src="./cards/46.jpg">
+                <img src="./cards/47.jpg">
+                <img src="./cards/48.jpg">
+                <img src="./cards/49.jpg">
+                <img src="./cards/5.jpg">
+                <img src="./cards/50.jpg">
+                <img src="./cards/51.jpg">
+                <img src="./cards/6.jpg">
+                <img src="./cards/7.jpg">
+                <img src="./cards/8.jpg">
+                <img src="./cards/9.jpg">
+                <img src="./cards/turn_0.jpg">
+                <img src="./cards/turn_1.jpg">
+                <img src="./cards/turn_10.jpg">
+                <img src="./cards/turn_11.jpg">
+                <img src="./cards/turn_12.jpg">
+                <img src="./cards/turn_13.jpg">
+                <img src="./cards/turn_14.jpg">
+                <img src="./cards/turn_15.jpg">
+                <img src="./cards/turn_16.jpg">
+                <img src="./cards/turn_17.jpg">
+                <img src="./cards/turn_18.jpg">
+                <img src="./cards/turn_19.jpg">
+                <img src="./cards/turn_2.jpg">
+                <img src="./cards/turn_20.jpg">
+                <img src="./cards/turn_21.jpg">
+                <img src="./cards/turn_22.jpg">
+                <img src="./cards/turn_23.jpg">
+                <img src="./cards/turn_24.jpg">
+                <img src="./cards/turn_25.jpg">
+                <img src="./cards/turn_26.jpg">
+                <img src="./cards/turn_27.jpg">
+                <img src="./cards/turn_28.jpg">
+                <img src="./cards/turn_29.jpg">
+                <img src="./cards/turn_3.jpg">
+                <img src="./cards/turn_30.jpg">
+                <img src="./cards/turn_31.jpg">
+                <img src="./cards/turn_32.jpg">
+                <img src="./cards/turn_33.jpg">
+                <img src="./cards/turn_34.jpg">
+                <img src="./cards/turn_35.jpg">
+                <img src="./cards/turn_36.jpg">
+                <img src="./cards/turn_37.jpg">
+                <img src="./cards/turn_38.jpg">
+                <img src="./cards/turn_39.jpg">
+                <img src="./cards/turn_4.jpg">
+                <img src="./cards/turn_40.jpg">
+                <img src="./cards/turn_41.jpg">
+                <img src="./cards/turn_42.jpg">
+                <img src="./cards/turn_43.jpg">
+                <img src="./cards/turn_44.jpg">
+                <img src="./cards/turn_45.jpg">
+                <img src="./cards/turn_46.jpg">
+                <img src="./cards/turn_47.jpg">
+                <img src="./cards/turn_48.jpg">
+                <img src="./cards/turn_49.jpg">
+                <img src="./cards/turn_5.jpg">
+                <img src="./cards/turn_50.jpg">
+                <img src="./cards/turn_51.jpg">
+                <img src="./cards/turn_6.jpg">
+                <img src="./cards/turn_7.jpg">
+                <img src="./cards/turn_8.jpg">
+                <img src="./cards/turn_9.jpg">
+                <img src="./cardbacks/Gray_back.jpg">
+                <img src="./cardbacks/Green_back.jpg">
+                <img src="./cardbacks/Red_back.jpg">
+                <img src="./cardbacks/Yellow_back.jpg">
+                <img src="./cardbacks/blue_back.jpg">
+                <img src="./cardbacks/purple_back.jpg">
+                <img src="./cardbacks/turned_Gray_back.jpg">
+                <img src="./cardbacks/turned_Green_back.jpg">
+                <img src="./cardbacks/turned_Red_back.jpg">
+                <img src="./cardbacks/turned_Yellow_back.jpg">
+                <img src="./cardbacks/turned_blue_back.jpg">
+                <img src="./cardbacks/turned_purple_back.jpg">
+            </div>
+            <div class="btn" id="seven_start">開始遊戲</div>
+            <div class="seven hide" id="seven">
+                <div class="hand" id="hand">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="discard" id="discard">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="board" id="board">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="hint" id="hint"></div>
+            <footer class="footer" id="footer">2019 &copy iaNTU</footer>
+        </div>
+        <ul class="decoline hide" id="decoline">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <!-- 引入 Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- 引入我們自己寫的 JavaScript -->
+    <script src="./index.js"></script>
+</body>
+
+</html>
